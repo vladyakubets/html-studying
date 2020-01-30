@@ -208,3 +208,48 @@ h1 {
 .about__button {
     border: 1px solid black;
 }
+
+.img-wrap-1 {
+    position: relative;
+    width: 550px;
+}
+
+.img-wrap-1 > .img-wrap-2 {
+    padding-bottom: 75%;
+}
+
+.img-wrap-1 > .img-wrap-2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+/* GALLERY */
+
+.galery__top {
+    display: flex;
+
+}
+
+.gallery__bottom {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
